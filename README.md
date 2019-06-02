@@ -8,7 +8,7 @@ Download the file and put it in a directory with an input.txt file that follows 
 
 ## Usage
 
-Run 'node trayFloorCleaner.js' in Terminal
+Run 'node trayFloorClean.js' in Terminal
 
 ## input.txt format
 
