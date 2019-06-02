@@ -22,19 +22,7 @@ Third line and on are dirt positions
 
 Last line is a set of cardinal directions for the hoover that define its movements - N,E,S,W
 
-example:
-
-5 5
-
-1 2
-
-1 0
-
-2 2
-
-2 3
-
-NNESEESWNWW
+An example input.txt is included in Github
 
 ## Graphic Mode
 
@@ -52,7 +40,7 @@ var graphic_mode = true
 
 The final outputs of the program are two lines, the final hoover position and the number of spots it cleaned in the run. If graphic mode is on, there will be several room representations that appear before this output (this output is last).
 
-example:
+An example output would have two lines, a coordinate set describing the position and the number of spots cleaned:
 
 1 3
 
