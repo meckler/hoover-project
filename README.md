@@ -13,25 +13,39 @@ Run 'node trayFloorCleaner.js' in Terminal
 ## input.txt format
 
 Cartesian coordinates are two integers
+
 First line is size of room
+
 Second line is initial hoover position
+
 Third line and on are dirt positions
+
 Last line is a set of cardinal directions for the hoover that define its movements - N,E,S,W
 
 example:
+
 5 5
+
 1 2
+
 1 0
+
 2 2
+
 2 3
+
 NNESEESWNWW
 
 ## Graphic Mode
 
 Graphic mode outputs a picture in Terminal that shows a graphical representation of the room initially and after each step to better follow the progress as output. 
+
 Initial setup (line 4):
+
 var graphic_mode = false
+
 To turn on graphic mode:
+
 var graphic_mode = true
 
 ## Outputs
@@ -39,5 +53,7 @@ var graphic_mode = true
 The final outputs of the program are two lines, the final hoover position and the number of spots it cleaned in the run. If graphic mode is on, there will be several room representations that appear before this output (this output is last).
 
 example:
+
 1 3
+
 1
