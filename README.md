@@ -1,6 +1,6 @@
 # Hoover Project
 
-Hoover project is a small program that takes an input file describing a room, dirt spots, and hoover position and directions outputs a summary of the final position and number of areas cleaned by the hoover. 
+Hoover project is a small program that takes an input file describing a room, dirt spots, and hoover position and directions outputs a summary of the final position and number of areas cleaned by the hoover 
 
 ## Installation
 
@@ -26,7 +26,7 @@ An example input.txt is included in Github
 
 ## Graphic Mode
 
-Graphic mode outputs a picture in Terminal that shows a graphical representation of the room initially and after each step to better follow the progress as output. 
+Graphic mode outputs a picture in Terminal that shows a graphical representation of the room initially and after each step to better follow the progress as output 
 
 Initial setup (line 4):
 
@@ -38,7 +38,7 @@ var graphic_mode = true
 
 ## Outputs
 
-The final outputs of the program are two lines, the final hoover position and the number of spots it cleaned in the run. If graphic mode is on, there will be several room representations that appear before this output (this output is last).
+The final outputs of the program are two lines, the final hoover position and the number of spots it cleaned in the run. If graphic mode is on, there will be several room representations that appear before this output (this output is last)
 
 An example output would have two lines, a coordinate set describing the position and the number of spots cleaned:
 
